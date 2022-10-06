@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<style>
+body {
+background-color:orange;   
+}
+.my{
+ margin: 15px
+ padding: 11px;
+ border: 3px;
+ background-color: grey;
+}
+
+.me {
+ margin-top: 20px;
+ margin-left: 20px;
+ margin-right: 1200px;
+ margin-bottom: 20px;
+ padding: 11px;
+ border: 2px; 
+background-color: grey;
+}
+.dop{
+margin: 20px;
+padding: 11px;
+border: 2px;
+}
+
+@keyframes bounce {
+0%{ 
+transform: translateY(0) 
+} 
+25%{ 
+transform: translateY(25px); 
+}   
+50%{ 
+transform: translateY(-25px); 
+} 
+100%{ 
+transform: translateY(0px); 
+} 
+} 
+
+p:hover{animation: bounce 0.8s}
+h2:hover{animation: bounce 0.8s}
+h1:hover{animation: bounce 0.8s}
+
+h1 {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font: bold 25px Georgia, Helvetica, Arial, sans-serif;
+  text-shadow: 0 1px 0 #cccccc,
+  0 2px 0 #c9c9c9,
+  0 3px 0 #bbbbbb,
+  0 4px 0 #b9b9b9,
+  0 5px 0 #aaaaaa,
+  0 6px 1px rgba(0, 0, 0, 0.1),
+  0 0 5px rgba(0, 0, 0, 0.1),
+  0 1px 3px rgba(0, 0, 0, 0.3),
+  0 3px 5px rgba(0, 0, 0, 0.2),
+  0 5px 10px rgba(0, 0, 0, 0.25),
+  0 10px 10px rgba(0, 0, 0, 0.2),
+  0 20px 20px rgba(0, 0, 0, 0.15);
+  }
+</style>
+</head>
+<body>
+<header>
+<h1 class="my">Мой профиль</h1>
+</header>
+<main>
+<section>
+<h2 class="me">Обо мне</h2>
+<p class="name">Имя: Вадим</p>
+<p class="fname">Фамилия: Пигарев</p>
+<p class="birsd">Родился 11.01.2005</p>
+</section>
+<section>
+<h2 class="dop">Дополнительная информация</h2>
+<p class="city">Город: Ульяновск</p>
+<p class="adress">Адрес: Карбышева 3, 3-й подъезд, 101 квартира</p>
+<p class="scholl">Учусь в "Колледже экономики и информатики"</p>
+</section>
+</main>
+</body>
+</html>
